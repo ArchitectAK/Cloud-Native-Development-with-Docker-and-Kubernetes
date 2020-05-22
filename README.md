@@ -19,7 +19,22 @@ Lets undersnatd this by answering few questions
 ### 1. What does "cloud native" mean?
 
 - Before we can describe cloud native, we first need to talk about cloud computing, what it provides and how to use that to understand what cloud native really means.
-- So why cloud computing? Wikipedia describes cloud computing as "the on-demand availability of cloud system resources."
-- It also helps to minimize upfront IT infrastructure costs because you don't need to buy and provision hardware for the amount of work that you are banked to do, you only need to provide hardware and buy resource for what you are currently using.
-- So cloud computing provides a managed platform that's infinitely scalable and always available and compute on demand.
-- As we move into the cloud, microservices become a possibility. Martin Fowler, one of the thought leaders for microservices, describes them as "a suite of small services "that run on their own "and communicate with each other "using lightweight mechanisms"
+- Why cloud computing?
+  - Wikipedia describes cloud computing as "the on-demand availability of cloud system resources."
+  - It also helps to minimize upfront IT infrastructure costs because you don't need to buy and provision hardware for the amount of work that you are banked to do, you only need to provide hardware and buy resource for what you are currently using.
+  - So cloud computing provides a managed platform that's infinitely scalable and always available and compute on demand.
+- As we move into the cloud, microservices become a possibility.
+  - Martin Fowler, one of the thought leaders for microservices, describes them as "a suite of small services "that run on their own "and communicate with each other "using lightweight mechanisms"
+  - They should be independently deployable, which means they are also independently scalable.
+- What about cloud native technologies?
+
+  - The Cloud Native Computing Foundation or CNCF refers to cloud native technologies as "technologies that empower you "to build scalable applications "which are deployed to hybrid public or private clouds."
+  - They also describe them as being "loosely coupled systems which are resilient, "manageable and observable."
+  - InfoWorld talk about them in terms of "an approach to building "and running applications."They exploit the advantages of cloud computing."
+  - A key part being there, that cloud native applications exploit the advantages of the cloud computing delivery model.
+
+- So let's look at what this means. Let's say I'm building an application on my laptop. If I take that application and I just deploy it to a cloud, it's not cloud native, it's just cloud hosted.
+- For it to be a cloud native application,
+  - it needs to be a small, lightweight service,
+  - it needs to be independently deployable and scalable,,
+  - most importantly, it needs to exploit the capabilities that the cloud provides.
