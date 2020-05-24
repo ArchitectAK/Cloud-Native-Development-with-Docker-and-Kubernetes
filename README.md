@@ -16,7 +16,7 @@ While the vast majority of Node.js apps are deployed and run in the cloud, few l
 
 Lets undersnatd this by answering few questions
 
-### 1. What does "cloud native" mean?
+### What does "cloud native" mean?
 
 - Before we can describe cloud native, we first need to talk about cloud computing, what it provides and how to use that to understand what cloud native really means.
 - Why cloud computing?
@@ -38,3 +38,11 @@ Lets undersnatd this by answering few questions
   - it needs to be a small, lightweight service,
   - it needs to be independently deployable and scalable,,
   - most importantly, it needs to exploit the capabilities that the cloud provides.
+
+### Node.js in the cloud
+
+- Microservices are described as being small, lightweight, and independently scalable, and that means there are some performance characteristics that can help determine whether a language is a good fit for microservice development.
+- One of those is IO and the reason for that, is that microservices are designed to communicate with other microservices, and that communication requires the ability to work with `IO Speed`.
+- Another criteria that's useful for microservices is `startup`, and this is because startup speed affects your ability to do scaling and to restart after a failure.
+- So the greater your startup speed, the quicker you will restart after a failure and the quicker you'll be able to add additional instances and react to additional load.
+- Microservices are described as being small, so their memory footprint is important. Particularly so in clouds where most clouds charge according to the amount of memory that you are using. So the more memory you use, the more you'll be charged by the cloud provider.
