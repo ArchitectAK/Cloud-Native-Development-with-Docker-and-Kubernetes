@@ -46,3 +46,12 @@ Lets undersnatd this by answering few questions
 - Another criteria that's useful for microservices is `startup`, and this is because startup speed affects your ability to do scaling and to restart after a failure.
 - So the greater your startup speed, the quicker you will restart after a failure and the quicker you'll be able to add additional instances and react to additional load.
 - Microservices are described as being small, so their memory footprint is important. Particularly so in clouds where most clouds charge according to the amount of memory that you are using. So the more memory you use, the more you'll be charged by the cloud provider.
+
+### Clound Native Node.js
+
+- The CloudNativeJS project enables you to
+  - package your application for cloud.
+  - exploit the cloud itself, providing automatic restarts, scaling, metrics and observability
+  - write Cloud Native Node.js
+
+## Woeking on the app
