@@ -65,3 +65,4 @@ Lets undersnatd this by answering few questions
   - The cloud native JS project provides docker file templates as part of its open source projects.
 - [Build a dev and debug Dockerfile](app/run-debug) -
 - [Build a production Dockerfile](app/Dockerfile-run) -
+- Tagging and version control
