@@ -63,5 +63,5 @@ Lets undersnatd this by answering few questions
   - That container has everything that the application needs in order to be able to run.
   - This includes an image of a Linux operating system. In this case Ubuntu 16 04. Along with Ubuntu System Libraries, a version of Node.js.
   - The cloud native JS project provides docker file templates as part of its open source projects.
-- [Build a dev and debug Dockerfile]() -
-- 
+- [Build a dev and debug Dockerfile](app/run-debug) -
+-
