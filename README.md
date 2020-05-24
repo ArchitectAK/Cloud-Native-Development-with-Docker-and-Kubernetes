@@ -57,7 +57,7 @@ Lets undersnatd this by answering few questions
 ## Woeking on the app
 
 - [Sample app](app)
-- [Added Dockrfile]() -
+- [Added Dockrfile](app/Dockerfile) -
   - We've already run our application locally, but now we're going to package it as a docker image.
   - This takes our application, which is running on our laptop, and packages it, so that it can run in a self-contained container.
   - That container has everything that the application needs in order to be able to run.
