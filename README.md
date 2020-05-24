@@ -57,3 +57,9 @@ Lets undersnatd this by answering few questions
 ## Woeking on the app
 
 - [Sample app](app)
+- [Added Dockrfile]() -
+  - We've already run our application locally, but now we're going to package it as a docker image.
+  - This takes our application, which is running on our laptop, and packages it, so that it can run in a self-contained container.
+  - That container has everything that the application needs in order to be able to run.
+  - This includes an image of a Linux operating system. In this case Ubuntu 16 04. Along with Ubuntu System Libraries, a version of Node.js.
+  - The cloud native JS project provides docker file templates as part of its open source projects.
