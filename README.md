@@ -79,3 +79,10 @@ Lets undersnatd this by answering few questions
 - Kubernetes is the container orchestrator that was originally developed to Google and which was subsequently open sourced and donated to the CNCF, the Cloud Native Computing Foundation.
 - Kubernetes provides support for deploying multiple containers and replicas.
 - Kubernetes also provides support for service discovery load balancing, self healing which means restarting on failures, as well as secret and configuration management and allowing you to roll out, roll back and scale horizontally to more instances based on load.
+
+### Helm chart
+
+- To deploy app to Kubernetes, we're going to use Helm.
+- Helm is the package manager for Kubernetes.
+- Helm describes itself as helping you define, install and upgrade even the most complex Kubernetes application.
+- Helm provides us with the ability to package our app, along with all of the configuration it needs, into a chart. That chart then describes how our app should be deployed and run.
