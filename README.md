@@ -72,7 +72,7 @@ Lets undersnatd this by answering few questions
 ### Docker vs Kubernetes
 
 - App can be used to run the Docker container on another machine, and that other machine could be a cloud.
-- But at this point we only have a single instance of our application running in a single container. To go beyond that this is where Kubernetes comes in.
+- But docker only have a single instance of our application running in a single container. To go beyond that this is where Kubernetes comes in.
 - Kubernetes will let us run multiple instances of the same container and load balance any incoming request across the multiple instances.
 - Kubernetes will also allow us to connect to other things. That might be something as simple as a database or it might be another application or microservice.
 - Kubernetes will also let us to integrate with cloud capabilities.
