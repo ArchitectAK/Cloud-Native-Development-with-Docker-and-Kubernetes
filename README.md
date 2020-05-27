@@ -66,3 +66,16 @@ Lets undersnatd this by answering few questions
 - [Build a dev and debug Dockerfile](app/run-debug) -
 - [Build a production Dockerfile](app/Dockerfile-run) -
 - Tagging and version control
+
+## Deploying to Kubernetes
+
+### Docker vs Kubernetes
+
+- App can be used to run the Docker container on another machine, and that other machine could be a cloud.
+- But at this point we only have a single instance of our application running in a single container. To go beyond that this is where Kubernetes comes in.
+- Kubernetes will let us run multiple instances of the same container and load balance any incoming request across the multiple instances.
+- Kubernetes will also allow us to connect to other things. That might be something as simple as a database or it might be another application or microservice.
+- Kubernetes will also let us to integrate with cloud capabilities.
+- Kubernetes is the container orchestrator that was originally developed to Google and which was subsequently open sourced and donated to the CNCF, the Cloud Native Computing Foundation.
+- Kubernetes provides support for deploying multiple containers and replicas.
+- Kubernetes also provides support for service discovery load balancing, self healing which means restarting on failures, as well as secret and configuration management and allowing you to roll out, roll back and scale horizontally to more instances based on load.
